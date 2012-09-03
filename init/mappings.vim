@@ -32,3 +32,15 @@ nmap \| :<C-u>NERDTreeFind<CR>
 " Ack
 xmap <D-F> <Plug>ack_visual
 nmap <D-F> <Plug>ack_normal
+
+" Tabs
+for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  exec "map <D-" . i . "> " . i . "gt"
+endfor
+map <D-0> :<C-u>tablast<CR>
+
+" Copy current file path to system pasteboard
+map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
+
+" Recalculate diff when it gets messed up.
+nmap du :diffupdate<CR>
