@@ -14,6 +14,7 @@ Bundle 'maxbrunsfeld/vim-emacs-bindings'
 
 " programming tools
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/syntastic.git'
 Bundle 'msanders/snipmate.vim'
 " Bundle 'emezeske/paredit.vim'
 
