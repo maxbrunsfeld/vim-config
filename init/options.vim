@@ -44,4 +44,7 @@ set clipboard=unnamed          " Use system clipboard as default register
 set tildeop                    " Tilde is an operator
 set wildignore+=tags           " Files to ignore when globbing
 set wildignore+=tmp/**
+set wildignore+=*.class
+set wildignore+=*.o
+set wildignore+=*.hi
 
