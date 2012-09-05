@@ -27,7 +27,7 @@ Bundle 'mileszs/ack.vim'
 " color schemes
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'wgibbs/vim-irblack'
-Bundle 'ootoovak/vim-tomorrow-night'
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 " languages
 Bundle 'vim-ruby/vim-ruby'
