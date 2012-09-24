@@ -1,6 +1,7 @@
 " Appearance
 set number                     " Show line numbers
 set visualbell t_vb=           " Get rid of that annoying error beep & flash
+set nowrap                     " By default, don't wrap lines
 set linebreak                  " Wrap words, not characters
 set showcmd                    " Show typed command prefixes while waiting for operator
 set laststatus=2               " Always show statusline
