@@ -16,7 +16,7 @@ Bundle 'maxbrunsfeld/vim-emacs-bindings'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'
 Bundle 'msanders/snipmate.vim'
-Bundle 'vim-scripts/paredit.vim'
+" Bundle 'vim-scripts/paredit.vim'
 
 " file navigation
 Bundle 'tpope/vim-fugitive'
@@ -38,4 +38,4 @@ Bundle 'tpope/vim-haml'
 Bundle 'vim-scripts/VimClojure'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'othree/html5-syntax.vim'
-
+Bundle 'jerrymarino/xcodebuild.vim'

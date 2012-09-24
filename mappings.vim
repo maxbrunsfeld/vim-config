@@ -39,6 +39,12 @@ for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]
 endfor
 map <D-0> :<C-u>tablast<CR>
 
+" Search/Replace
+nmap <leader>s :%s/
+xmap <leader>s :s/
+nmap <leader>S "xyiw:%s/<C-r>x/
+xmap <leader>S <Esc>"xyiwgv:s/<C-r>x/
+
 " Copy current file path to system pasteboard
 map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 
