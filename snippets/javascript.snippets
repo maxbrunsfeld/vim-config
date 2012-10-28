@@ -1,14 +1,18 @@
-# Anonymous Function
 snippet f
+	function() {
+		${1}
+	}
+snippet fp
 	function(${1}) {
 		${2}
 	}
+snippet cl
+	console.log(${1});
+snippet clv
+	console.log("${1:}:", $1);
+
 snippet it
 	it("${1}", function() {
-		${2}
-	});
-snippet des
-	describe("${1}", function() {
 		${2}
 	});
 snippet desc
@@ -23,5 +27,5 @@ snippet bef
 	beforeEach(function() {
 		${1}
 	});
-snippet cl
-	console.log(${1});
+snippet ex
+	expect(${1}).to${2}
