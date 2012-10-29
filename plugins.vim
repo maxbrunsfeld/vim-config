@@ -17,7 +17,6 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic.git'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-" Bundle "honza/snipmate-snippets"
 Bundle "garbas/vim-snipmate"
 " Bundle 'vim-scripts/paredit.vim'
 
@@ -41,4 +40,3 @@ Bundle 'tpope/vim-haml'
 Bundle 'vim-scripts/VimClojure'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'othree/html5-syntax.vim'
-Bundle 'jerrymarino/xcodebuild.vim'
