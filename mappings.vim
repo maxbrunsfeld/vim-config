@@ -15,6 +15,8 @@ xmap <C-k> [egv
 xmap <C-j> ]egv
 xmap <C-h> <gv
 xmap <C-l> >gv
+xmap <Tab> >gv
+xmap <S-Tab> <gv
 
 " Command-T
 nmap <D-N> :<C-u>CommandTFlush<CR>:CommandT<CR>
@@ -32,6 +34,9 @@ nmap \| :<C-u>NERDTreeFind<CR>
 " Ack
 xmap <D-F> <Plug>ack_visual
 nmap <D-F> <Plug>ack_normal
+
+" Ctags
+nmap <leader>t :!ctags -R
 
 " Tabs
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]
