@@ -37,7 +37,7 @@ xmap <D-F> <Plug>ack_visual
 nmap <D-F> <Plug>ack_normal
 
 " Ctags
-nmap <leader>t :!ctags -R
+nmap <leader>t :silent !ctags -R<CR>
 
 " Tabs
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]
