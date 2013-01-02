@@ -7,16 +7,17 @@ noremap <Space> :<C-u>nohlsearch<CR><C-l>
 nmap Y y$
 
 " Move text around
-nmap <C-k> [e
-nmap <C-j> ]e
-nmap <C-h> <<
-nmap <C-l> >>
-xmap <C-k> [egv
-xmap <C-j> ]egv
-xmap <C-h> <gv
-xmap <C-l> >gv
-xmap <Tab> >gv
+nmap <M-k> [e
+nmap <M-j> ]e
+nmap <M-h> <<
+nmap <M-l> >>
+xmap <M-k> [egv
+xmap <M-j> ]egv
+xmap <M-h> <gv
+xmap <M-l> >gv
 xmap <S-Tab> <gv
+xmap <Tab> >gv
+imap <S-tab> <C-o><<
 
 " Command-T
 nmap <D-N> :<C-u>CommandTFlush<CR>:CommandT<CR>
