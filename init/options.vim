@@ -49,3 +49,5 @@ set wildignore+=*.class
 set wildignore+=*.o
 set wildignore+=*.hi
 
+set cpoptions+=d
+set tags=./.git/tags,./tags
