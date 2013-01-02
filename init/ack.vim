@@ -17,4 +17,4 @@ function! s:get_visual_selection()
 endfunction
 
 xmap <Plug>ack_visual :<C-u>call <SID>ack_visual()<CR>
-nmap <Plug>ack_normal :Ack ""<Left>
+nmap <Plug>ack_normal :Ack! ""<Left>
