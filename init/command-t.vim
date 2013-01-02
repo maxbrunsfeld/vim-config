@@ -1,1 +1,1 @@
-let g:CommandTMaxHeight=20
+let g:CommandTMaxHeight=15
