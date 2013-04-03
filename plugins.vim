@@ -19,6 +19,7 @@ Bundle 'scrooloose/syntastic.git'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
+Bundle 'tpope/vim-dispatch'
 " Bundle 'vim-scripts/paredit.vim'
 
 " file navigation
