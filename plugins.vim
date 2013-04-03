@@ -19,6 +19,7 @@ Bundle 'scrooloose/syntastic.git'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
+Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'tpope/vim-dispatch'
 " Bundle 'vim-scripts/paredit.vim'
 
@@ -39,6 +40,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-haml'
-Bundle 'vim-scripts/VimClojure'
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'othree/html5-syntax.vim'
