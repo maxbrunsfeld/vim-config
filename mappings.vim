@@ -19,7 +19,13 @@ xmap <S-Tab> <gv
 xmap <Tab> >gv
 imap <S-tab> <C-o><<
 
+" snipmate
+imap <Tab> <plug>snipmate_custom_trigger
+smap <Tab> <plug>snipmate_custom_trigger
+
 " Command-T
+nmap <leader>N :<C-u>CommandTFlush<CR>:CommandT<CR>
+nmap <leader>M :<C-u>CommandT<CR>
 nmap <D-N> :<C-u>CommandTFlush<CR>:CommandT<CR>
 nmap <D-M> :<C-u>CommandT<CR>
 nmap <D-B> :<C-u>CommandTBuffer<CR>
