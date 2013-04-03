@@ -11,6 +11,7 @@ Bundle 'tmhedberg/matchit'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'maxbrunsfeld/vim-yankstack'
 Bundle 'maxbrunsfeld/vim-emacs-bindings'
+Bundle 'Townk/vim-autoclose'
 
 " programming tools
 Bundle 'scrooloose/nerdcommenter'
