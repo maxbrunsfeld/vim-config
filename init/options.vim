@@ -39,6 +39,7 @@ set backupdir=/tmp
 set hidden                     " Allow unsaved changes in hidden buffers
 set autowriteall               " Save when focus is lost
 set autoread
+set viminfo+=!
 autocmd BufLeave,FocusLost * silent! wall
 
 set clipboard=unnamed          " Use system clipboard as default register

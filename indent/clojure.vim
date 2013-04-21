@@ -1,0 +1,2 @@
+setlocal lispwords+=describe,it
+
