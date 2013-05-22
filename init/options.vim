@@ -51,4 +51,4 @@ set wildignore+=*.o
 set wildignore+=*.hi
 
 set cpoptions+=d
-set tags=./.git/tags,./tags
+set tags=.git/tags,tags,./.git/tags,./tags
