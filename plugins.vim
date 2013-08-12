@@ -25,6 +25,7 @@ Bundle 'Valloric/YouCompleteMe'
 
 " file navigation
 Bundle 'tpope/vim-fugitive'
+Bundle 'sebastiangeiger/gitignore.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'wincent/Command-T'
 Bundle 'mileszs/ack.vim'
