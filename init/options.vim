@@ -30,6 +30,7 @@ set foldlevelstart=20          " Do not fold by default
 
 " Completion
 set completeopt-=menu          " Bash-like inline completion
+set completeopt-=preview       " Don't open preview window for completions
 set wildmode=list:longest      " Bash-like tab completion
 
 " File Saving/Loading

@@ -11,7 +11,7 @@ Bundle 'tmhedberg/matchit'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'maxbrunsfeld/vim-yankstack'
 Bundle 'maxbrunsfeld/vim-emacs-bindings'
-Bundle 'Townk/vim-autoclose'
+Bundle 'Raimondi/delimitMate'
 
 " programming tools
 Bundle 'scrooloose/nerdcommenter'
@@ -21,7 +21,7 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'tpope/vim-dispatch'
-" Bundle 'vim-scripts/paredit.vim'
+Bundle 'Valloric/YouCompleteMe'
 
 " file navigation
 Bundle 'tpope/vim-fugitive'
