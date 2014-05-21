@@ -7,7 +7,6 @@ set showcmd                    " Show typed command prefixes while waiting for o
 set laststatus=2               " Always show statusline
 set scrolloff=7                " How far away from the edge the cursor initiates scrolling
 set showmatch                  " Show matching brackets
-set list                       " Show whitespace
 set listchars=trail:~
 
 " Indent
@@ -34,6 +33,7 @@ set completeopt-=preview       " Don't open preview window for completions
 set wildmode=list:longest      " Bash-like tab completion
 
 " File Saving/Loading
+set exrc                       " Load project-specific config file
 set swapfile                   " Keep swapfiles in /tmp
 set directory=/tmp
 set backupdir=/tmp
