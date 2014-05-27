@@ -6,26 +6,6 @@ nnoremap <C-c> <Esc>
 noremap <Space> :<C-u>nohlsearch<CR><C-l>
 nmap Y y$
 
-" Move text around
-nmap <M-k> [e
-nmap <M-j> ]e
-nmap <M-h> <<
-nmap <M-l> >>
-xmap <M-k> [egv
-xmap <M-j> ]egv
-xmap <M-h> <gv
-xmap <M-l> >gv
-xmap <S-Tab> <gv
-xmap <Tab> >gv
-imap <S-tab> <C-o><<
-
-" Command-T
-nmap <leader>N :<C-u>CommandTFlush<CR>:CommandT<CR>
-nmap <leader>M :<C-u>CommandT<CR>
-nmap <D-N> :<C-u>CommandTFlush<CR>:CommandT<CR>
-nmap <D-M> :<C-u>CommandT<CR>
-nmap <D-B> :<C-u>CommandTBuffer<CR>
-
 " NERDCommenter
 nmap <D-/> <plug>NERDCommenterToggle<Down>
 xmap <D-/> <plug>NERDCommenterTogglegv
@@ -55,6 +35,3 @@ xmap <leader>S <Esc>"xyiwgv:s/<C-r>x/
 
 " Copy current file path to system pasteboard
 map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
-
-" Recalculate diff when it gets messed up.
-nmap du :diffupdate<CR>

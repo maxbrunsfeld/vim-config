@@ -28,7 +28,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'tpope/vim-fugitive'
 Bundle 'sebastiangeiger/gitignore.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'wincent/Command-T'
+Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 
 " color schemes
